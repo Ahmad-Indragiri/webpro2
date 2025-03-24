@@ -29,7 +29,7 @@
                         <textarea class="form-control" id="alamat" name="alamat" rows="3" placeholder="Masukkan Alamat" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Simpan</button>
-                    <a href="<?= site_url('crud') ?>" class="btn btn-secondary">Kembali</a>
+                    <a href="<?= site_url('/') ?>" class="btn btn-secondary">Kembali</a>
                 </form>
             </div>
         </div>

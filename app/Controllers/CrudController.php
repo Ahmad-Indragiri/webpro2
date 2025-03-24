@@ -55,3 +55,21 @@ class CrudController extends Controller
         return redirect()->to('/');
     }
 }
+
+class Pages extends Controller
+{
+    public function home()
+    {
+        return view('pages/home');
+    }
+
+    public function contact()
+    {
+        return view('pages/contact');
+    }
+
+    public function about()
+    {
+        return view('pages/about');
+    }
+}

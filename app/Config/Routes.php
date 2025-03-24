@@ -11,4 +11,7 @@ $routes->post('crud/store', 'CrudController::store');
 $routes->get('crud/edit/(:num)', 'CrudController::edit/$1');
 $routes->post('crud/update/(:num)', 'CrudController::update/$1');
 $routes->get('crud/delete/(:num)', 'CrudController::delete/$1');
+$routes->get('pages/contact', 'Pages::contact');
+$routes->get('pages/about', 'Pages::about');
+
 

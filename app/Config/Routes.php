@@ -13,5 +13,9 @@ $routes->post('crud/update/(:num)', 'CrudController::update/$1');
 $routes->get('crud/delete/(:num)', 'CrudController::delete/$1');
 $routes->get('pages/contact', 'Pages::contact');
 $routes->get('pages/about', 'Pages::about');
+$routes->get('auth/login', 'Auth::login');
+$routes->post('auth/login_action', 'Auth::login_action'); // nanti untuk validasi login
+$routes->get('auth/register', 'Auth::register');
+$routes->post('auth/register_action', 'Auth::register_action');
 
 
